@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+#header-bg{
+    background-image: url('../Images/background\ spice.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#logo-white{
+width: 500px;
+height: 100px;
+padding-top: 50px;
+}
+
+#first-btns{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 70px;
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+.btn-1{
+    background-color: orange;
+    border: none;
+    font-size: 30px;
+}
