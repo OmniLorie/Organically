@@ -1,6 +1,6 @@
 *{
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #header-bg{
@@ -11,9 +11,9 @@ padding: 0;
 }
 
 #logo-white{
-width: 500px;
-height: 100px;
-padding-top: 50px;
+    width: 500px;
+    height: 200px;
+    padding-top: 50px;
 }
 
 #first-btns{
@@ -22,7 +22,7 @@ padding-top: 50px;
     width: 200px;
     gap: 70px;
     padding-top: 80px;
-    padding-left: 120px;
+    padding-left: 150px;
 }
 
 .btn-1{
@@ -30,3 +30,115 @@ padding-top: 50px;
     border: none;
     font-size: 30px;
 }
+
+.txt-btn1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sec-section-bg{
+    background-image: url(../Images/spicies\ about\ us.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#sec-txt{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.sec-h1{
+    font-size: 5rem;
+    color: red;
+}
+
+.sec-p{
+    padding-top: 20px; 
+    font-weight: 10px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#trio-bg{
+    background-color: orange;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#values{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+
+.trio-txt{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+#quart-bg{
+    background-image: url(../Images/footer\ spice.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.quart-h1{
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+/* ol{
+    list-style-type: disc;
+} */
+
+.quart-txt{
+    color: white;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 9.3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.quart-p{
+    padding-top: 1rem;
+}
+
+#product-bg{
+    background-color: grey;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pro-images{
+    width: 5px;
+    height: 5px;
+}
+
+.box-img{
+    width: 15rem;
+    height: 15rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    border-radius: 2rem;
+
+}
+
+
