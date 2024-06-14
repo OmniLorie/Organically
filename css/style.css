@@ -14,12 +14,13 @@
 nav{
     background-color: white;
     width: 100%;
+    height: 10vh;
     position: fixed;
 }
 
 .nav-list{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     gap: 20px;
     list-style: none;
     margin-top: 20px;
@@ -27,7 +28,8 @@ nav{
 }
 
 .nav-list a:hover{
-    background-color: aquamarine;
+    color: orange;
+
 }
 
 .list{
@@ -40,16 +42,21 @@ nav{
 
 
 .btn{
-  background-color: orange;  
+  background-color: orange; 
+  border: none; 
+  border-radius: 2rem;
+  height: 3rem;
+  width: 9rem;
 }
 
 .btn a:hover{
-   background-color: aquamarine;
+   color: white;
+   border: none; 
 }
 
 img{
-    height: 10vh;
-}
+    height: 8vh;
+} 
 
 .header-txt{
     padding-top: 200px;
@@ -156,6 +163,7 @@ img{
     background-color: orange;
     border-radius: 1rem;
     margin-left: 8rem;
+    text-align: center;
 }
 
 .box-img{
@@ -176,6 +184,8 @@ img{
 
 .main-box{
     display: flex;
+    padding-bottom: 30px;
+    margin: auto 4rem;
 }
 
 .spicenherbs{
